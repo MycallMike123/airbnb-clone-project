@@ -66,6 +66,7 @@ This mis my project on developing a backed clone for airbnb
 - A **Property** can have multiple **Reviews**.
 - A **Review** is written by a **User** for a **Property**.
 
+
 ## 🧩 Feature Breakdown
 
 **User Management**
@@ -88,3 +89,24 @@ The backend supports both RESTful and GraphQL APIs. This enables flexible and st
 
 **Database Optimization**
 Indexing and caching are used to improve performance and data retrieval speed. This ensures the platform scales efficiently as usage grows.
+
+## 🔐 API Security
+
+Security is critical in protecting user data, financial transactions, and the integrity of the platform. The following measures are implemented to ensure secure access to the backend APIs:
+
+**Authentication**
+Token-based authentication (e.g., JWT) ensures that only registered users can access protected resources. This helps safeguard personal data and prevents unauthorized access.
+
+**Authorization**
+Role-based access control determines what actions users can perform based on their role (e.g., host, guest, admin). This prevents users from modifying data they shouldn't have access to.
+
+**Rate Limiting**
+APIs are rate-limited to prevent abuse such as brute-force attacks or spamming endpoints. This protects server resources and ensures fair use for all clients.
+
+**Input Validation & Sanitization**
+All incoming data is validated and sanitized to prevent injection attacks and ensure data integrity. This protects the database from malicious inputs.
+
+**HTTPS Enforcement**
+All API requests are made over HTTPS to encrypt data in transit. This ensures sensitive information such as login credentials and payment details are securely transmitted.
+
+These security measures are essential for maintaining user trust, complying with data protection regulations, and protecting the system from vulnerabilities and attacks.

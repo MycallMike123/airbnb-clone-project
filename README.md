@@ -110,3 +110,14 @@ All incoming data is validated and sanitized to prevent injection attacks and en
 All API requests are made over HTTPS to encrypt data in transit. This ensures sensitive information such as login credentials and payment details are securely transmitted.
 
 These security measures are essential for maintaining user trust, complying with data protection regulations, and protecting the system from vulnerabilities and attacks.
+
+## 🚀 CI/CD Pipeline
+
+Continuous Integration (CI) and Continuous Deployment (CD) pipelines automate the process of testing, building, and deploying code changes. CI ensures that all code pushed to the repository is automatically tested, while CD ensures that validated code is deployed to the production or staging environment without manual intervention.
+
+This approach improves code quality, reduces bugs, and speeds up the development cycle by catching issues early and enabling fast delivery of new features.
+
+**Tools Used:**
+- **GitHub Actions**: Automates workflows like testing and deployment directly from GitHub.
+- **Docker**: Provides containerized environments to ensure consistency across development, testing, and production.
+- **Heroku / AWS / DigitalOcean**: Possible deployment platforms that integrate well with CI/CD pipelines.

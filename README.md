@@ -65,3 +65,26 @@ This mis my project on developing a backed clone for airbnb
 - A **Booking** has one associated **Payment**.
 - A **Property** can have multiple **Reviews**.
 - A **Review** is written by a **User** for a **Property**.
+
+## 🧩 Feature Breakdown
+
+**User Management**
+Users can register, log in, and manage their profiles securely. This feature ensures that only authenticated users can interact with the platform, either as guests or hosts.
+
+**Property Management**
+Hosts can create, update, and delete property listings. This functionality allows property owners to manage details like location, price, and availability.
+
+**Booking System**
+Guests can search for properties and make bookings with check-in and check-out details. It ensures that each booking is linked to a specific property and user, maintaining accurate reservation records.
+
+**Payment Processing**
+Users can pay for bookings through a secure payment system. This feature records each transaction and ensures financial operations are tracked accurately.
+
+**Review System**
+After a stay, guests can leave reviews and ratings on properties. This builds trust within the platform and helps future guests make informed decisions.
+
+**API Integration**
+The backend supports both RESTful and GraphQL APIs. This enables flexible and structured access to data for frontend and third-party clients.
+
+**Database Optimization**
+Indexing and caching are used to improve performance and data retrieval speed. This ensures the platform scales efficiently as usage grows.
